@@ -1,0 +1,4 @@
+JENKINS_URL=http://localhost:8080
+JENKINS_USER=jenkins
+JENKINS_PASS=jenkins
+AUTH="--username ${JENKINS_USER} --password ${JENKINS_PASS}"
