@@ -2,3 +2,11 @@ JENKINS_URL=http://localhost:8080
 JENKINS_USER=jenkins
 JENKINS_PASS=jenkins
 AUTH="--username ${JENKINS_USER} --password ${JENKINS_PASS}"
+
+#env-dst only:
+ARTIFACTORY_NAME=localhost2
+ARTIFACTORY_URL=http://loclhost:8081
+CREDENTIALS_ID=575c7586-9870-40ad-927a-436f4a04ee51
+JDK_NAME=jdk1.8.0_201
+SONAR_URL=http://localhost:9000
+SONAR_TOKEN=abc
